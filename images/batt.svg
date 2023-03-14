@@ -1,0 +1,9 @@
+<svg viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg">
+	<path fill="#f57500" d="M544 160v64h32v64h-32v64H64V160h480m16-64H48c-26.51 0-48 21.49-48 48v224c0 26.51 21.49 48 48 48h512c26.51 0 48-21.49 48-48v-16h8c13.255 0 24-10.745 24-24V184c0-13.255-10.745-24-24-24h-8v-16c0-26.51-21.49-48-48-48z"/>
+	<path fill="#f57500" d="m96 192H 96V 128H 128V 192z" style="display: none;"/>
+	<rect x="96" y="192" height="128" width="0" fill="#f57500">
+		<!-- <animate id="op" attributeName="width" from="0" to="410" begin="1s;op.end+10s" values="0;410;0" dur="3s" fill="currentColor" repeatCount="indefinite" /> -->
+		<animate id="op" attributeName="width" attributeType="XML" values="0;410" begin="0s;op.end+5s" dur="5s" fill="freeze" repeatCount="1" />
+
+	</rect>
+</svg>

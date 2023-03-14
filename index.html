@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="User-Scripts для tampermonkey" />
+        <meta name="yandex-verification" content="182c8632e8ff7c2d" />
+        <link rel="icon" href="/images/favicon.png" />
+        <meta property="og:image" content="{$_SERVER['REQUEST_SCHEME']}://{$_SERVER['SERVER_NAME']}/images/preview.png" />
+        <meta property="og:title" content="User-Scripts" />
+        <meta property="og:site_name" content="User-Scripts" />
+        <meta property="og:url" content="{$_SERVER['REQUEST_SCHEME']}://{$_SERVER['SERVER_NAME']}" />
+        <meta property="og:description" content="User-Scripts для tampermonkey" />
+        <link rel="stylesheet" href="/css/main.min.css?v={$ver}" />
+        <script src="/js/app.min.js?v={$ver}" defer></script>
+        <title>User-Scripts</title>
+    </head>
+
+    <body>
+        <section class="top">
+            <div class="top-line">
+                <a href="/" class="logo">
+                    <span class="logo-img-wrapper">
+                        <img decoding="async" loading="lazy" src="/images/logo.svg" width="70" height="70" alt="UserScripts" class="logo-image" />
+                    </span>
+                    <span class="logo-text">UserScripts</span>
+                </a>
+                <div class="top-line-decor"></div>
+                <img decoding="async" loading="lazy" src="/images/batt.svg" width="34" height="34" alt="UserScripts" class="logo-image-decor" />
+                <div class="top-line-decor"></div>
+                <div class="menu-btn-container">
+                    <button id="menu-btn" class="menu-btn">
+                        <!-- <i class="fas fa-bars"></i> -->
+                        <i class="bburger"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="left-block">
+                <div class="left-block-decor"></div>
+                <div class="social-btns">
+                    <a href="//discord.gg/XHETQJx" class="soc-item" target="_blank"><i class="fab fa-discord-pro"></i></a>
+                    <a href="//www.donationalerts.com/r/krevetka2k21" class="soc-item" target="_blank"><i class="fas fa-donate"></i></a>
+                    <a href="//www.paypal.com/donate?hosted_button_id=ZYR9ZV9SBJ6P2" class="soc-item" target="_blank"><i class="fab fa-paypal"></i></a>
+                </div>
+                <div class="left-block-share"><i class="fas fa-share"></i></div>
+            </div>
+            <div class="content">
+                <div class="slider-container">
+                    <div class="slider-text">
+                        <div class="swiper-wrapper">
+                            <!-- for -->
+
+                            <div class="swiper-slide slider-text__slide" data-name="111" data-ver="{$res->version}">
+                                <div class="slider-text__content">
+                                    <h2 class="slider-text__heading">
+                                        <span>111</span>
+                                        v:{$res->version}
+                                    </h2>
+                                    <p class="slider-text__desc">{$desc}</p>
+                                    <button class="button slider-text__button" data-file="{$res->file}"><span>установить скрипт</span></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider-text__slide" data-name="222" data-ver="{$res->version}">
+                                <div class="slider-text__content">
+                                    <h2 class="slider-text__heading">
+                                        <span>222</span>
+                                        v:{$res->version}
+                                    </h2>
+                                    <p class="slider-text__desc">{$desc}</p>
+                                    <button class="button slider-text__button" data-file="{$res->file}"><span>установить скрипт</span></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider-text__slide" data-name="333" data-ver="{$res->version}">
+                                <div class="slider-text__content">
+                                    <h2 class="slider-text__heading">
+                                        <span>333</span>
+                                        v:{$res->version}
+                                    </h2>
+                                    <p class="slider-text__desc">{$desc}</p>
+                                    <button class="button slider-text__button" data-file="{$res->file}"><span>установить скрипт</span></button>
+                                </div>
+                            </div>
+                            <!-- end for -->
+                        </div>
+                    </div>
+                    <div class="slider-img">
+                        <div class="swiper-wrapper">
+                            <!-- for -->
+
+                            <div class="swiper-slide slider-img__slide">
+                                <div class="slider-img__bg" data-swiper-parallax="40%" style="background-image: url('/images/slider/1.webp')"></div>
+                            </div>
+                            <div class="swiper-slide slider-img__slide">
+                                <div class="slider-img__bg" data-swiper-parallax="40%" style="background-image: url('/images/slider/2.webp')"></div>
+                            </div>
+                            <div class="swiper-slide slider-img__slide">
+                                <div class="slider-img__bg" data-swiper-parallax="40%" style="background-image: url('/images/slider/3.webp')"></div>
+                            </div>
+                            <!-- end for -->
+                        </div>
+                    </div>
+                    <div class="slider-bottom">
+                        <div class="slider-share">
+                            <div class="slider-share__items">
+                                <a href="//vk.com/share.php?url=https://script.artiromiur.ru" class="soc-item slider-share__item" target="_blank"><i class="fab fa-vk"></i></a>
+                                <a href="//facebook.com/sharer/sharer.php?u=https://script.artiromiur.ru" class="soc-item slider-share__item" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="//twitter.com/intent/tweet?url=https://script.artiromiur.ru" class="soc-item slider-share__item" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="slider-pagination">
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="slider-navigation">
+                            <div class="swiper1-button-prev"></div>
+                            <div class="swiper1-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-gear-wrapper">
+                    <img class="slider-gear" src="/images/gear.svg" alt="" />
+                </div>
+                <div class="slider-pagination-count">
+                    <span class="current"></span>
+                    <span class="separator">/</span>
+                    <span class="total"></span>
+                </div>
+                <div class="slider-pagination-current"></div>
+            </div>
+            <div class="overlay"></div>
+            <div id="menu" class="mmenu-constainer">
+                <h1>Список плагинов</h1>
+                <div class="wrapper">
+                    <ul class="wrapper__ul"></ul>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
